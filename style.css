@@ -1,0 +1,72 @@
+.desktop {
+  background-color: #882929;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  display: flex;
+}
+
+.desktop .group {
+  margin-top: 196px;
+  width: 1336px;
+  height: 828px;
+  margin-left: -44px;
+  position: relative;
+}
+
+.desktop .image-removebg {
+  position: absolute;
+  top: 0;
+  left: 469px;
+  width: 607px;
+  height: 615px;
+  aspect-ratio: 0.99;
+  object-fit: cover;
+  opacity: 25%;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  top: 110px;
+  left: 250px;
+  width: 1029px;
+  height: 412px;
+  background-color: #c12929;
+  border-radius: 50px;
+}
+
+.desktop .pada-musim {
+  position: absolute;
+  top: 100px;
+  left: 280px;
+  width: 1029px;
+  font-family: "Actor-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper {
+  font-family: "Actor-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+}
+
+.desktop .span {
+  text-decoration: underline;
+}
+
+.desktop .img {
+  position: absolute;
+  top: 328px;
+  left: 44px;
+  width: 470px;
+  height: 500px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
